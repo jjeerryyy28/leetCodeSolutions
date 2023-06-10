@@ -4,6 +4,7 @@
  * @param {number} maxSum
  * @return {number}
  */
+
 var maxValue = function (n, index, maxSum) {
     let min = Math.floor(maxSum / n)
     let max = maxSum
